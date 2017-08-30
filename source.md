@@ -1,4 +1,4 @@
-<section src="http://curso-shaders.andrescolubri.net/images/intro.jpg" style="color:#F6F6F6">
+<section data-background="http://curso-shaders.andrescolubri.net/images/intro.jpg" style="color:#F6F6F6">
 Programación de  Shaders en Processing
 </section>
 
@@ -101,7 +101,7 @@ https://uclab.fh-potsdam.de/cf/
 
 H:
 
-<section src="http://curso-shaders.andrescolubri.net/images/3D.jpg" style="color:#F6F6F6">
+<section data-background="http://curso-shaders.andrescolubri.net/images/3D.jpg" style="color:#F6F6F6">
 Gráficos 3D en Processing
 </section>
 
