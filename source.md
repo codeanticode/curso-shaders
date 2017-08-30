@@ -423,51 +423,213 @@ Los videos musicales de Raven Kwok
 
 H:
 
-<img width=100% src="http://curso-shaders.andrescolubri.net/images/from_flat_to_marble.png" class="plain">
+Projecto de estudio: de una esfera sólida, al "blue marble earth"
+
+<img height=400 src="http://curso-shaders.andrescolubri.net/images/from_flat_to_marble.png" class="plain">
+
+*basado en un <a href="http://learningthreejs.com/blog/2013/09/16/how-to-make-the-earth-in-webgl/" target="_blank">tutorial de three.js</a>*
 
 H:
 
-<img src="http://curso-shaders.andrescolubri.net/images/shader_types.png" class="header">
-<br>
-* Shaders de puntos (stroke points)
-* Shaders de lineas (stroke lines)
-* Shaders de color (geometría sin luces ni texturas)
-* Shaders de texturado (geo texturada sin luces)
-* Shaders de iluminación (geo iluminada sin texturas)
-* Shaders de iluminación y texturado (todo)
+Que necesitamos para programar shaders en Processing:
 
-H:
+* Processing :-)
+* Un editor de texto (preferentemente con soporte de syntaxis de GLSL)
 
-Processing + editor GLSL
+V:
+
 <img width=100% src="http://curso-shaders.andrescolubri.net/images/processing_sublime.png" class="plain">
 
+Por ejemplo: Sublime, Visual Studio Code, etc.
+
+H:
+
+Primer paso: shader de color sólido
+
+```java
+PShader solido;
+
+void setup() {
+  size(600, 600, P3D);
+  fill(255, 0, 0);
+  solido = loadShader("frag.glsl", "vert.glsl");
+  shader(solido);
+}
+
+void draw() {
+  translate(width/2, height/2);
+  sphere(200);
+}
+```
+
 V:
 
-Esfera color solido
+Shader de vértices
+
+```glsl
+uniform mat4 transform;
+
+attribute vec4 position;
+attribute vec4 color;
+
+varying vec4 vertColor;
+
+void main() {
+  gl_Position = transform * position;
+  vertColor = color;
+}
+```
 
 V:
 
-Esfera iluminada
-* Iluminacion por vertice
-* Iluminacion por pixel
+Shader de fragmentos
+
+```glsl
+varying vec4 vertColor;
+
+void main() {
+  gl_FragColor = vertColor;
+}
+```
 
 V:
 
-Esfera texturada
+<img height=400 src="http://curso-shaders.andrescolubri.net/images/solidearth.png" class="plain">
+
+H:
+
+Segundo paso: shader de texturado
+<br><br>
+<img src="http://curso-shaders.andrescolubri.net/images/texturing.png" class="plain">
 
 V:
 
-Bump mapping
+<img src="http://curso-shaders.andrescolubri.net/images/texturing-quad.png" class="plain">
 
-http://mmikkelsen3d.blogspot.com.ar/2011/07/derivative-maps.html
+Mapeado de textura: a donde cada píxel de la textura va a parar en los vértices de la geometría
 
-V: 
+V:
 
-Specular mapping
+```java
+PShader texturado;
+PImage tierraTex;
 
-V: 
+void setup() {
+  size(600, 600, P3D);
+  
+  tierraTex = loadImage("earthmap1k.jpg");
+  textureMode(NORMAL);
+  
+  texturado = loadShader("frag.glsl", "vert.glsl");
+  shader(texturado);
+}
 
-Alpha mask
+void draw() {
+  background(0);
+  translate(width/2, height/2);
+  
+  beginShape();
+  texture(tierraTex);
+  vertex(-200, -200, 0, 0);
+  vertex(+200, -200, 1, 0);
+  vertex(+200, +200, 1, 1);
+  vertex(-200, +200, 0, 1);
+  endShape();
+}
+```
+
+V:
+
+```glsl
+uniform mat4 transform;
+uniform mat4 texMatrix;
+
+attribute vec4 position;
+attribute vec4 color;
+attribute vec2 texCoord;
+
+varying vec4 vertColor;
+varying vec4 vertTexCoord;
+
+void main() {
+  gl_Position = transform * position;
+  vertColor = color;  
+  vertTexCoord = texMatrix * vec4(texCoord, 1.0, 1.0);
+}
+```
+
+V:
+
+```glsl
+uniform sampler2D texture;
+
+varying vec4 vertColor;
+varying vec4 vertTexCoord;
+
+void main() {
+  gl_FragColor = texture2D(texture, vertTexCoord.st) * vertColor;
+}
+```
+
+V:
+
+<img src="http://curso-shaders.andrescolubri.net/images/flatearth.png" class="plain">
+
+V:
+
+<img src="http://curso-shaders.andrescolubri.net/images/sphericalearth.png" class="plain">
+
+V:
+
+
+```java
+PShader texturado;
+PShape tierra;
+PImage tierraTex;
+
+void setup() {
+  size(600, 600, P3D);
+  
+  tierraTex = loadImage("earthmap1k.jpg");
+
+  texturado = loadShader("frag.glsl", "vert.glsl");
+  shader(texturado);
+  
+  tierra = createShape(SPHERE, 200);
+  tierra.setTexture(tierraTex);
+  tierra.setStroke(false);
+}
+
+void draw() {
+  background(0);
+  translate(width/2, height/2);
+  rotateY(0.01 * frameCount);
+  shape(tierra);
+}
+```
+
+V:
+
+<img src="http://curso-shaders.andrescolubri.net/images/complex-texmapping.png" class="plain">
+
+H:
+
+Tercer paso: iluminación
+ 
+<img src="http://curso-shaders.andrescolubri.net/images/lights.png" class="plain">
+
+*Mas info en el <a href="http://visualcomputing.github.io/Shaders/#/8" target="_blank">Curso de Computación visual</a> con Jean Pierre Charalambos*
+
+V:
+
+Podemos hacer el cálculo de iluminación en el shader de vértices o el de fragmentos:
+* Iluminación por vértice
+* Iluminación por píxel
+
+V:
+
+<img src="http://curso-shaders.andrescolubri.net/images/lightmodel.png" class="plain">
+
 
 H:
 
