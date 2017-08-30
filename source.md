@@ -1,16 +1,16 @@
-<section src="http://shaders.andrescolubri.net/images/intro.jpg" style="color:#F6F6F6">
+<section src="http://curso-shaders.andrescolubri.net/images/intro.jpg" style="color:#F6F6F6">
 Programación de  Shaders en Processing
 </section>
 
 H:
 
-<img width="300" src="http://shaders.andrescolubri.net/images/processing_logo.png" class="plain">
+<img width="300" src="http://curso-shaders.andrescolubri.net/images/processing_logo.png" class="plain">
 
 ¿Qué es Processing?
 
 V:
 
-<img src="http://shaders.andrescolubri.net/images/processing_header.png" class="header">
+<img src="http://curso-shaders.andrescolubri.net/images/processing_header.png" class="header">
 <br><br><br>
 Es un proyecto iniciado por Casey Reas y Ben Fry en el 2001, que promueve el uso del código como medio de expresión artística, y la cultura visual dentro de la tecnología. 
 <br><br>
@@ -18,22 +18,22 @@ https://processing.org/
 
 V:
 
-<img height=600 src="http://shaders.andrescolubri.net/images/processing_pde.png" class="plain">
+<img height=600 src="http://curso-shaders.andrescolubri.net/images/processing_pde.png" class="plain">
 
 V:
 
-<img src="http://shaders.andrescolubri.net/images/processing_api.png" class="plain">
+<img src="http://curso-shaders.andrescolubri.net/images/processing_api.png" class="plain">
 
 
 H:
 
 Un primer sketch de dibujo
 
-<img src="http://shaders.andrescolubri.net/images/primer_sketch.png" class="plain">
+<img src="http://curso-shaders.andrescolubri.net/images/primer_sketch.png" class="plain">
 
 V:
 
-<img height=600 src="http://shaders.andrescolubri.net/images/processing_settings.png" class="plain">
+<img height=600 src="http://curso-shaders.andrescolubri.net/images/processing_settings.png" class="plain">
 
 V:
 
@@ -59,7 +59,7 @@ void keyPressed() {
 
 H:
 
-<img src="http://shaders.andrescolubri.net/images/processing_header.png" class="header">
+<img src="http://curso-shaders.andrescolubri.net/images/processing_header.png" class="header">
 <br><br><br>
 * Código abierto: http://github.com/processing/
 
@@ -71,7 +71,7 @@ H:
 
 V:
 
-<img height=500 src="http://shaders.andrescolubri.net/images/processing_libs.png" class="plain">
+<img height=500 src="http://curso-shaders.andrescolubri.net/images/processing_libs.png" class="plain">
 
 V:
 
@@ -95,13 +95,13 @@ H:
 
 cf. city flows (Till Nagel)
 
-<img height=450 src="http://shaders.andrescolubri.net/images/cityflows.png" class="plain">
+<img height=450 src="http://curso-shaders.andrescolubri.net/images/cityflows.png" class="plain">
 
 https://uclab.fh-potsdam.de/cf/
 
 H:
 
-<section src="http://shaders.andrescolubri.net/images/3D.jpg" style="color:#F6F6F6">
+<section src="http://curso-shaders.andrescolubri.net/images/3D.jpg" style="color:#F6F6F6">
 Gráficos 3D en Processing
 </section>
 
@@ -109,7 +109,7 @@ H:
 
 Un "Hola Mundo" 3D
 
-<img height=400 src="http://shaders.andrescolubri.net/images/hola_mundo_3d.png" class="plain">
+<img height=400 src="http://curso-shaders.andrescolubri.net/images/hola_mundo_3d.png" class="plain">
 
 V:
 
@@ -140,7 +140,7 @@ V:
 Algo un poco más complejo: una superficie 3D
 
 
-<img height=400 src="http://shaders.andrescolubri.net/images/terreno_3d.png" class="plain">
+<img height=400 src="http://curso-shaders.andrescolubri.net/images/terreno_3d.png" class="plain">
 
 V:
 
@@ -180,7 +180,7 @@ void draw() {
 
 V:
 
-<img width=100% src="http://shaders.andrescolubri.net/images/coding_train.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/coding_train.png" class="plain">
 
 H:
 
@@ -226,7 +226,7 @@ void draw() {
 
 V:
 
-<img height=500 src="http://shaders.andrescolubri.net/images/nube_de_puntos_lenta.png" class="plain">
+<img height=500 src="http://curso-shaders.andrescolubri.net/images/nube_de_puntos_lenta.png" class="plain">
 
 fps < 10
 
@@ -234,7 +234,7 @@ V:
 
 Empaquetando geometría con PShape 
 
-<img height=400 src="http://shaders.andrescolubri.net/images/estrella_pshape.png" class="plain">
+<img height=400 src="http://curso-shaders.andrescolubri.net/images/estrella_pshape.png" class="plain">
 
 V:
 
@@ -314,7 +314,7 @@ void draw() {
 
 V:
 
-<img height=500 src="http://shaders.andrescolubri.net/images/nube_de_puntos_rapida.png" class="plain">
+<img height=500 src="http://curso-shaders.andrescolubri.net/images/nube_de_puntos_rapida.png" class="plain">
 
 fps = 60
 
@@ -322,66 +322,66 @@ H:
 
 Unnamed soundsculpture (onformative)
 
-<img width=100% src="http://shaders.andrescolubri.net/images/soundsculpture1.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/soundsculpture1.png" class="plain">
 
 https://vimeo.com/38840688
 
 V:
 
-<img width=100% src="http://shaders.andrescolubri.net/images/soundsculpture2.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/soundsculpture2.png" class="plain">
 
 https://vimeo.com/38505448
 
 H:
 
-<img width=100% src="http://shaders.andrescolubri.net/images/shaded_teapots.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/shaded_teapots.png" class="plain">
 <br><br>
 ¡Finalmente, shaders!
 
 V:
 
-<img height=100% src="http://shaders.andrescolubri.net/images/shade_trees1.png" class="plain">
+<img height=100% src="http://curso-shaders.andrescolubri.net/images/shade_trees1.png" class="plain">
 
 V:
 
-<img height=100% src="http://shaders.andrescolubri.net/images/shade_trees2.png" class="plain">
+<img height=100% src="http://curso-shaders.andrescolubri.net/images/shade_trees2.png" class="plain">
 
 V:
 
-<img height=600 src="http://shaders.andrescolubri.net/images/shade_trees3.png" class="plain">
+<img height=600 src="http://curso-shaders.andrescolubri.net/images/shade_trees3.png" class="plain">
 
 H:
 
 El pipeline gráfico
 
-<img width=100% src="http://shaders.andrescolubri.net/images/graphics_pipeline.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/graphics_pipeline.png" class="plain">
 
 V:
 
 Paralelismo en el GPU
-<img width=100% src="http://shaders.andrescolubri.net/images/cpu_vs_gpu.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/cpu_vs_gpu.png" class="plain">
 
 
 V:
 
-<img height=600 src="http://shaders.andrescolubri.net/images/pipeline_full.png" class="plain">
+<img height=600 src="http://curso-shaders.andrescolubri.net/images/pipeline_full.png" class="plain">
 
 V:
 
-<img height=500 src="http://shaders.andrescolubri.net/images/pipeline_part1.png" class="plain">
+<img height=500 src="http://curso-shaders.andrescolubri.net/images/pipeline_part1.png" class="plain">
 
 
 V:
 
-<img height=600 src="http://shaders.andrescolubri.net/images/pipeline_part2.png" class="plain">
+<img height=600 src="http://curso-shaders.andrescolubri.net/images/pipeline_part2.png" class="plain">
 
 V:
 
-<img height=600 src="http://shaders.andrescolubri.net/images/pipeline_part3.png" class="plain">
+<img height=600 src="http://curso-shaders.andrescolubri.net/images/pipeline_part3.png" class="plain">
 
 V:
 
-<img width=100% src="http://shaders.andrescolubri.net/images/book_of_shaders.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/book_of_shaders.png" class="plain">
 
 http://thebookofshaders.com/
 
@@ -413,7 +413,7 @@ Entornos de programación de shaders en la web
 
 V:
 
-<img width=100% src="http://shaders.andrescolubri.net/images/shader_tutorial.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/shader_tutorial.png" class="plain">
 
 https://processing.org/tutorials/pshader/
 
@@ -421,17 +421,17 @@ H:
 
 Los videos musicales de Raven Kwok
 
-<img height=400 src="http://shaders.andrescolubri.net/images/raven_kwok.png" class="plain">
+<img height=400 src="http://curso-shaders.andrescolubri.net/images/raven_kwok.png" class="plain">
 
 https://vimeo.com/ravenkwok
 
 H:
 
-<img width=100% src="http://shaders.andrescolubri.net/images/from_flat_to_marble.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/from_flat_to_marble.png" class="plain">
 
 H:
 
-<img src="http://shaders.andrescolubri.net/images/shader_types.png" class="header">
+<img src="http://curso-shaders.andrescolubri.net/images/shader_types.png" class="header">
 <br>
 * Shaders de puntos (stroke points)
 * Shaders de lineas (stroke lines)
@@ -443,7 +443,7 @@ H:
 H:
 
 Processing + editor GLSL
-<img width=100% src="http://shaders.andrescolubri.net/images/processing_sublime.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/processing_sublime.png" class="plain">
 
 V:
 
@@ -477,7 +477,7 @@ H:
 
 flight404 (Robert Hodgins)
 
-<img width=100% src="http://shaders.andrescolubri.net/images/flight404_sol.png" class="plain">
+<img width=100% src="http://curso-shaders.andrescolubri.net/images/flight404_sol.png" class="plain">
 
 https://vimeo.com/146875858
 
