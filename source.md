@@ -618,7 +618,7 @@ Tercer paso: iluminación
  
 <img src="http://curso-shaders.andrescolubri.net/images/lights.png" class="plain">
 
-*Mas info en el <a href="http://visualcomputing.github.io/Shaders/#/8" target="_blank">Curso de Computación visual</a> con Jean Pierre Charalambos*
+*Más info en el <a href="http://visualcomputing.github.io/Shaders/#/8" target="_blank">curso de Computación visual</a> con Jean Pierre Charalambos*
 
 V:
 
@@ -628,8 +628,25 @@ Podemos hacer el cálculo de iluminación en el shader de vértices o el de frag
 
 V:
 
-<img src="http://curso-shaders.andrescolubri.net/images/lightmodel.png" class="plain">
+<img height=400 src="http://curso-shaders.andrescolubri.net/images/lightmodel.png" class="plain">
 
+H:
+
+Bump mapping
+
+<img src="http://curso-shaders.andrescolubri.net/images/Bump_mapping_intro.png" class="plain">
+
+V:
+
+<img src="http://curso-shaders.andrescolubri.net/images/Bump_mapping.png" class="plain">
+
+V:
+
+<img src="http://curso-shaders.andrescolubri.net/images/Bump_map_vs_isosurface3ver2.png" class="plain">
+
+V:
+
+http://mmikkelsen3d.blogspot.com.ar/2011/07/derivative-maps.html
 
 H:
 
