@@ -14,7 +14,7 @@ V:
 <br><br><br>
 Es un proyecto iniciado por Casey Reas y Ben Fry en el 2001, que promueve el uso del código como medio de expresión artística, y la cultura visual dentro de la tecnología. 
 <br><br>
-https://processing.org/
+*<a href="https://processing.org/" target="_blank">processing.org</a>*
 
 V:
 
@@ -61,12 +61,9 @@ H:
 
 <img src="http://curso-shaders.andrescolubri.net/images/processing_header.png" class="header">
 <br><br><br>
-* Código abierto: http://github.com/processing/
-
-*  Comunidad: http://forum.processing.org/
-
-*  Diversidad: http://processingfoundation.org
-
+* Código abierto: *@ <a href="http://github.com/processing/" target="_blank">GitHub</a>*
+* Comunidad: *<a href="http://forum.processing.org/" target="_blank">foro</a>, <a href="http://openprocessing.org/" target="_blank">OpenProcessing</a>, etc.*
+* Diversidad: *<a href="http://processingfoundation.org/" target="_blank">Fundación Processing</a>*
 <br><br><br>
 
 V:
@@ -75,29 +72,29 @@ V:
 
 V:
 
-* [OpenCV for Processing](https://github.com/atduskgreg/opencv-processing): Procesamiento de imágenes y visión artificial
+* *<a href="https://github.com/atduskgreg/opencv-processing" target="_blank">OpenCV for Processing</a>*: Procesamiento de imágenes y visión artificial
 
-* [PixelFlow](https://github.com/diwi/PixelFlow): dinámica de fluidos, flujo óptico, cuerpos elásticos
+* *<a href="https://github.com/diwi/PixelFlow" target="_blank">PixelFlow</a>*: dinámica de fluidos, flujo óptico, cuerpos elásticos
 
-* [proscene](https://github.com/remixlab/proscene): Manejo de cámara, sistemas de coordenadas y escenas interactivas
+* *<a href="https://github.com/remixlab/proscene" target="_blank">proscene</a>*: Manejo de cámara, sistemas de coordenadas y escenas interactivas
 
-* [unfolding](http://unfoldingmaps.org/): Gráfico de mapas e información geográfica
+* *<a href="http://unfoldingmaps.org/" target="_blank">unfolding</a>*: Gráfico de mapas e información geográfica
 
 V:
 
-* [HE_Mesh](http://www.wblut.com/he_mesh/): Creación y manipulación de grillas poligonales
+* *<a href="http://www.wblut.com/he_mesh/" target="_blank">HE_Mesh</a>*: Creación y manipulación de grillas poligonales
 
-* [Syphon](https://github.com/Syphon/Processing): Compartir la salida gráfica entre distintas aplicaciones en Mac (Spout es el equivalente para Windows)
+* *<a href="https://github.com/Syphon/Processing" target="_blank">Syphon</a>*: Compartir la salida gráfica entre distintas aplicaciones en Mac (Spout es el equivalente para Windows)
 
-* [controlP5](http://www.sojamo.de/libraries/controlP5/): elementos de interfaz de usuario para controlar parámetros en un sketch
+* *<a href="http://www.sojamo.de/libraries/controlP5/" target="_blank">controlP5</a>*: elementos de interfaz de usuario para controlar parámetros en un sketch
 
 H:
 
-cf. city flows (Till Nagel)
+City Flows (Till Nagel c/unfolding maps)
 
 <img height=450 src="http://curso-shaders.andrescolubri.net/images/cityflows.png" class="plain">
 
-https://uclab.fh-potsdam.de/cf/
+*<a href="https://uclab.fh-potsdam.de/cf/" target="_blank">uclab.fh-potsdam.de/cf/</a>*
 
 H:
 
@@ -324,13 +321,13 @@ Unnamed soundsculpture (onformative)
 
 <img width=100% src="http://curso-shaders.andrescolubri.net/images/soundsculpture1.png" class="plain">
 
-https://vimeo.com/38840688
+*<a href="https://vimeo.com/38840688" target="_blank">Vimeo</a>*
 
 V:
 
 <img width=100% src="http://curso-shaders.andrescolubri.net/images/soundsculpture2.png" class="plain">
 
-https://vimeo.com/38505448
+*<a href="https://vimeo.com/38505448" target="_blank">Vimeo</a>*
 
 H:
 
@@ -383,39 +380,38 @@ V:
 
 <img width=100% src="http://curso-shaders.andrescolubri.net/images/book_of_shaders.png" class="plain">
 
-http://thebookofshaders.com/
+*<a href="http://thebookofshaders.com/" target="_blank">thebookofshaders.com</a>*
 
 V:
 
 Tutoriales
-* http://www.lighthouse3d.com/tutorials/ 
-* http://ogldev.atspace.co.uk/ 
-* http://www.opengl-tutorial.org/ 
-* https://open.gl 
-* http://learnopengl.com/
-* http://www.songho.ca/opengl/index.html 
-* http://thebookofshaders.com/ 
+* *<a href="http://www.lighthouse3d.com/tutorials/" target="_blank">Lighthouse 3D</a>* 
+* *<a href="http://ogldev.atspace.co.uk/" target="_blank">OpenGL Step by Step</a>* 
+* *<a href="http://www.opengl-tutorial.org/" target="_blank">OpenGL Tutorial</a>, <a href="http://www.opengl-tutorial.org/es/" target="_blank">version español</a>* 
+* *<a href="https://open.gl" target="_blank">OpenGL Guide</a>* 
+* *<a href="http://learnopengl.com/" target="_blank">Learn OpenGL</a>* 
+* *<a href="http://www.songho.ca/opengl/index.html " target="_blank">SongHo OpenGL articles</a>* 
+* *<a href="http://thebookofshaders.com/?lan=es" target="_blank">El Libro de los Shaders</a>* 
 
 V:
 
 Técnicas avanzadas
-* http://prideout.net/blog/
-* http://paulbourke.net/
-* http://http.developer.nvidia.com/GPUGems3
+* *<a href="http://prideout.net/blog/" target="_blank">The Little Grasshopper</a>*
+* *<a href="http://paulbourke.net/" target="_blank">Paul Bourke page</a>*
+* *GPU Gems <a href="https://developer.nvidia.com/gpugems/GPUGems/gpugems_pref01.html" target="_blank">1</a>, <a href="https://developer.nvidia.com/gpugems/GPUGems2/gpugems2_inside_front_cover.html" target="_blank">2</a>, y <a href="https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_pref01.html" target="_blank">3</a>*
 
 V:
 
 Entornos de programación de shaders en la web
-* https://www.shadertoy.com/
-* http://glsl.heroku.com/
-* https://www.vertexshaderart.com/
-
+* *<a href="https://www.shadertoy.com/" target="_blank">ShaderToy</a>*
+* *<a href="http://glslsandbox.com/" target="_blank">GLSL Sandbox</a>*
+* *<a href="https://www.vertexshaderart.com/" target="_blank">Vertex Shader Art</a>*
 
 V:
 
 <img width=100% src="http://curso-shaders.andrescolubri.net/images/shader_tutorial.png" class="plain">
 
-https://processing.org/tutorials/pshader/
+*<a href="https://processing.org/tutorials/pshader/" target="_blank">processing.org/tutorials/pshader</a>*
 
 H:
 
@@ -423,7 +419,7 @@ Los videos musicales de Raven Kwok
 
 <img height=400 src="http://curso-shaders.andrescolubri.net/images/raven_kwok.png" class="plain">
 
-https://vimeo.com/ravenkwok
+*<a href="https://vimeo.com/ravenkwok" target="_blank">Vimeo</a>*
 
 H:
 
@@ -479,5 +475,4 @@ flight404 (Robert Hodgins)
 
 <img width=100% src="http://curso-shaders.andrescolubri.net/images/flight404_sol.png" class="plain">
 
-https://vimeo.com/146875858
-
+*<a href="https://vimeo.com/146875858" target="_blank">Vimeo</a>*
