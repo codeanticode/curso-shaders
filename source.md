@@ -630,6 +630,13 @@ V:
 
 <img height=400 src="http://curso-shaders.andrescolubri.net/images/lightmodel.png" class="plain">
 
+
+V:
+
+<img height=400 src="http://curso-shaders.andrescolubri.net/images/phong-model.png" class="plain">
+
+http://web.eecs.umich.edu/~sugih/courses/eecs487/lectures/16-Phong+Shading.pdf
+
 H:
 
 Bump mapping
@@ -647,6 +654,12 @@ V:
 V:
 
 http://mmikkelsen3d.blogspot.com.ar/2011/07/derivative-maps.html
+
+V:
+
+http://www.aclockworkberry.com/shader-derivative-functions/
+
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dFdx.xhtml
 
 H:
 
